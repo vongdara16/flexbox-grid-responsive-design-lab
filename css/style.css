@@ -32,6 +32,9 @@ body {
 
 main {
   background-color: white;
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: 50px 50px 200px 50px 50px ;
 }
 
 div#status {
@@ -41,10 +44,8 @@ div#status {
 }
 
 img {
-  display: flex;
   border-radius: 50%;
   border: 4px solid black;
-  justify-content: center;
 
 }
 
